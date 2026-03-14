@@ -93,5 +93,13 @@ export const languages: Language[] = [
     description: "A language designed to be ported to all CPU archs",
     discord: "https://discord.gg/zPwp6zJNTV",
     github: "https://github.com/Qxtdl/cm2lang"
-  }
+  },
+{
+  name: "X",
+  slug: "x",
+  tagline: "The X Language",
+  logo: "/logos/x.png",
+  description: "X is a transpiled language that goes from X to a Haxe program to C to gpp to an actual binary.",
+  website: "https://crz.network:21212/x-lang/",
+},
 ];

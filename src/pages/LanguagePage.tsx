@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import RosRepl from "../components/RosRpel";
 import WppRepl from "../components/WppRepl";
 import X3Repl from "../components/X3Repl";
+import XRepl from "../components/XRepl";
 import Navbar from "../components/Navbar";
 import "./LanguagePage.css";
 
@@ -64,6 +65,7 @@ export default function LanguagePage() {
         {lang.slug === "ros" && <RosRepl />}
         {lang.slug === "wpp" && <WppRepl />}
         {lang.slug === "x3" && <X3Repl />}
+        {lang.slug === "x" && <XRepl />}
       </motion.main>
     </>
   );

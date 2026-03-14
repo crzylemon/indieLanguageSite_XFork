@@ -101,5 +101,6 @@ export const languages: Language[] = [
   logo: "/logos/x.png",
   description: "X is a transpiled language that goes from X to a Haxe program to C to gpp to an actual binary.",
   website: "https://crz.network:21212/x-lang/",
+  discord: "https://discord.gg/NxFePPqZgA",
 },
 ];

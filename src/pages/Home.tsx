@@ -24,6 +24,7 @@ export default function Home() {
                   alt={`${lang.name} logo`}
                   className="language-logo"
                   loading="lazy"
+                  style={lang.slug === "x" ? { borderRadius: 0 } : undefined}
                 />
                 <h2>{lang.name}</h2>
                 <p><strong>{lang.tagline}</strong></p>

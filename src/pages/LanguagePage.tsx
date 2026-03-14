@@ -38,6 +38,7 @@ export default function LanguagePage() {
             alt={`${lang.name} logo`}
             width={120}
             height={120}
+            style={lang.slug === "x" ? { borderRadius: 0 } : undefined}
           />
           <h1>{lang.name}</h1>
           <p>{lang.description}</p>
